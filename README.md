@@ -66,8 +66,7 @@ caractéristiques demandées:
 
 ## Test
 
-Pour tester veuillez installer tous les paquets (ci-dessus)
-puis lancer les commandes
+Pour tester veuillez lancer les commandes
 
     npm install
     npm start
