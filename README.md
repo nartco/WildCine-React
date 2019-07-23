@@ -1,11 +1,31 @@
 ﻿# 				WildCine
-![Home page](https://lh3.googleusercontent.com/DlcxDeGxv_ip_ZyLnL_Wjtq_dlPBM5yWBtunCRr6Mz-YrWqDy54Yvvs36wDkm5E27EdrOQp9m7j5)
+
 
 ![
-](https://lh3.googleusercontent.com/bj9WeKazN3kqDxk-M2m-Q3df47CsO3N0jwci2nKU45QNbUWGHrHHZZMfwogJWoWnL8Hz_RBDymUc "Details")
+](https://lh3.googleusercontent.com/zPhY5q70tG2ZaBx5aWA63nfQZkYV6QfqKBbf2c2577AC-mWShuyymn3svw9FvsIueAnpJVWGwCxJ "home")
+
+![enter image description here](https://lh3.googleusercontent.com/jqPUCtMBoVGvsZfuad0nHhzEG6dVwDONxxKRv1GGMxy-1QttD2-rUSpRB2_drlyparNmLQbaW7C7 "search")
+
 ![
-](https://lh3.googleusercontent.com/kULhG92TW_X3KK_XZKFz43d7jGPCjo4oHVuUJs--wvHWVFe7wc6ICk5p7EEe13UkGJOch3tjYndN "mobile details")
-![criteria](https://lh3.googleusercontent.com/ZkouZAjdrXw0XqZ5QvbQSne2-e8nat7wS6w5dxJPaU6oGoT7_1XazTcE2SeMdmO4iOLnll7hhvfB)
+](https://lh3.googleusercontent.com/cOlP_R3CslTG7HggzmeEE9SDjPrnk88I01G9JBlHTBvgcL-wwQqf0bm-SIU4ijQHGvaSs1Q6nwsa "Date Hover")
+
+![
+](https://lh3.googleusercontent.com/I4tUT0x1_bPymBVPRZu6TF8abNG2G5Gt4b3uBSvu9tfi8vxL5zh-XcqO7MVk2pHp88H4MDzirFXf "details")
+
+![
+](https://lh3.googleusercontent.com/Hy3lF-QV8SXQOL6Fyuh0ffSsAcCpNf2UBk3S3hqOGQ2XszcNCwav_GhvvFdnahFP_2f2s0mvYF-p "detail + add favorite")
+
+
+![
+](https://lh3.googleusercontent.com/KHseOtEvjP0EJqyQ9RcXtpRlzo7cIUJ6a6ju3dWqWzJOrcWzIhN7_2ZBh9LkPyvdcsyd1gnZFrAm "navbar mobile")
+
+![
+](https://lh3.googleusercontent.com/FfJqpZ2BC3lqkrdfWkcIDRMZnPAnsIrBUPRBQkcvr9YBRmta3hDgRhB12ASNjgF9FbMh_wqgRuVy "favorites")
+
+
+
+
+
 
 
 

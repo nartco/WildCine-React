@@ -13,6 +13,10 @@ header{
     transition: .5s;
     z-index: 3;
 }
+.navLogo h1{
+    padding-top: 18px; 
+    font-family: 'Fugaz One', cursive !important;
+}
 .logo{
     margin: 0 2px;
     display: flex;
@@ -21,7 +25,7 @@ header{
 
 .navUl{
     position: relative;
-    bottom: 40px;
+    bottom: 3.1em;
     margin: 0;
     padding: 0;
     display: flex;
@@ -103,9 +107,7 @@ header{
         right: 15rem;
         bottom: 2.8rem;
     }
-    .navUl{
-        bottom: 3.8rem;
-    }
+   
 }
 
 @media screen and (max-width: 555px){
