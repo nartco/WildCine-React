@@ -1,0 +1,91 @@
+.search-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: black;
+    height: 40px;
+    border-radius: 40px;
+}
+
+
+@media screen and (min-width: 555px) {
+    .search-btn {
+        float: right;
+        width: 35px;
+        height: 35px;
+        top: 0.4rem;
+    }
+    
+    
+  }
+  @media screen and (max-width: 555px) {
+    .search-box {
+        position: absolute;
+        transform: translate(0%, -50%);
+    }
+    .search-btn {
+        position: relative;
+        float: left;
+        top: 1rem;
+        width: 30px;
+        height: 30px;
+    }
+    .search-box:hover > .search-btn, .search-box:active > .search-btn  {
+        opacity: 0;
+        transition: visibility 0s, opacity 0s linear;
+    }
+    .search-box:hover > .search-txt, .search-box:active > .search-txt {
+        width: 150px;
+        padding: -5px -5px !important;
+    }
+  }
+  @media screen and (max-width: 890px){
+    .search-box:hover > .search-txt, .search-box:active > .search-txt {
+        width: 130px !important;
+    }
+  }
+
+  .search-box:hover > .search-btn, .search-box:active > .search-btn  {
+    background: white;
+    color: #26C485;
+}
+.search-box:hover > .search-txt, .search-box:active > .search-txt {
+    width: 200px;
+    padding: 4px 0px;
+}
+
+
+
+.search-btn {
+    color: #e84118;
+    border-radius: 50%;
+    background: #26C485;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+    color: white;
+    cursor: pointer;
+}
+
+.search-btn > i {
+    font-size: 30px;
+}
+
+.search-txt {
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: white;
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 40px;
+    width: 0px;
+    font-weight: bold;
+}
+
+/* cf https://www.youtube.com/watch?v=v1PeTDrw6OY */

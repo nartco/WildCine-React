@@ -1,0 +1,9 @@
+.divFooter{
+    background-color: black;
+    padding: 2rem;
+    color: green;
+    position: static;
+    z-index: 4;
+    clear: both;
+
+}

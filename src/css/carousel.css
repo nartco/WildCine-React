@@ -1,0 +1,21 @@
+.increase-size a{
+  text-decoration: none;
+  color: black;
+}
+
+@media screen and (max-width: 464px){
+  .increase-size img{
+    margin-left: 12vw !important;
+  }
+}
+.increase-size img{
+  margin-left: 60px;
+}
+.image-container-text{
+  text-align: center;
+}
+
+.spiner{
+  position: absolute;
+  left: 48%;
+}

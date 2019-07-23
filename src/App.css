@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:700&display=swap');
+
+.mainContent{
+  position: relative;
+  margin: 5.9rem 2.5rem;
+  min-height: 100vh;
+}
+.nameFooter{
+  color: #26C485;
+}
+.linkFooter{
+  color: #26C485;
+  font-size: 140%;
+  text-decoration: underline;
+}

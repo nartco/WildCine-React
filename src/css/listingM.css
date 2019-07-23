@@ -1,0 +1,51 @@
+h1{
+    text-align: center;
+    padding: 1.5rem 0 1rem 0;
+
+}
+.NextPrev{
+    font-weight: bold;
+    margin: 5px;
+    border-radius: 30px;
+    display: inline-block;
+    border: 2px solid #26C485;
+    background-color: black;
+    color: #26C485;
+    width: 20%;
+    height: 3rem;
+}
+.selectCriteria{
+    margin: 0 auto;
+    text-align: center;
+    z-index: 1;
+}
+.selectCriteria select{
+    background: black;
+    color: #26C485;
+    height: 30px;
+}
+.NextPrev:disabled{
+    background-color: rgba(0, 0, 0, 0.8)
+}
+.buttonGroup{
+    padding-top: 5%;
+    text-align: center;
+}
+@media screen and (max-width: 800px) {
+    .NextPrev{
+        height: 4rem;
+        font-size: 2.1rem;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .NextPrev{
+        height: 3.6rem;
+        width: 24%;
+        font-size: 1.5rem;
+        margin: 1.5rem;
+    }
+  }
+  .spiner{
+      position: absolute;
+      left: 48%;
+  }

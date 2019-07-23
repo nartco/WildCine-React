@@ -1,0 +1,103 @@
+.posterM{
+    width: 70%;
+    margin-top: 2%;
+    box-shadow: 0px 10px 10px 10px rgba(0, 0, 0, .4);
+
+}
+.informationsMovie{
+    font-size: 220%;
+    text-align: center;
+}
+.categories{
+    font-weight: 900;
+    color: #26C485;
+}
+.listButton{
+    border-radius: 50px;
+    width: 20%;
+}
+.listButton h1{
+    font-size: 80%
+}
+
+li{
+    list-style-type: none;
+}
+.char{
+    color: rgba(38, 196, 133, 0.8)
+}
+.response{
+    font-weight: 600;
+
+}
+@media screen  and (min-width: 800px){
+    .posterDivM{
+        position: fixed;
+    }
+    .resultCategories{
+        margin-left: 40%;
+    }
+    .informationsMovie{
+        float: right;
+        width: 60%;
+
+    }
+  }
+@media screen and (min-width: 992px) {
+    .posterDivM{
+        left: 70px;
+        top: 8%;
+    }
+    .posterM{
+        width: 70%;
+        margin-top: 2%;
+    }
+  }
+  @media screen and (min-width: 800px) and (max-width: 991px){
+      .posterDivM{
+          left: 35px;
+          top: 9%;
+      }
+      .posterM{
+          width: 60%;
+      }
+  }
+
+  @media screen  and (max-width: 1050px){
+    .informationsMovie{
+        font-size: 200%;
+    }
+  }
+  
+  @media screen  and (max-width: 799px){
+    
+    .informationsMovie{
+        margin: 0 auto;
+        height: 100%;
+        margin-top: 20px;
+    }
+    .posterDivM{
+        margin: 0 auto;
+        text-align: center;
+    }
+    .posterM{
+        margin: 10 auto;
+    }
+    .ulM {
+        display: inline-block;
+        width: 100%;
+        margin: auto;
+        padding: 0 0 0 0px;
+    }
+  }
+  @media screen and (min-width: 600px) and (max-width: 800px){
+      .posterM{
+          width: 50%;
+      }
+  }
+  @media screen and (max-width: 880px){
+    .listButton{
+        border-radius: 50px;
+        width: 30%;
+    }
+  }
