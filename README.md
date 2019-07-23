@@ -6,6 +6,11 @@
 ![
 ](https://lh3.googleusercontent.com/kULhG92TW_X3KK_XZKFz43d7jGPCjo4oHVuUJs--wvHWVFe7wc6ICk5p7EEe13UkGJOch3tjYndN "mobile details")
 ![criteria](https://lh3.googleusercontent.com/ZkouZAjdrXw0XqZ5QvbQSne2-e8nat7wS6w5dxJPaU6oGoT7_1XazTcE2SeMdmO4iOLnll7hhvfB)
+
+
+
+
+
 Site réalisé pour ma candidature a la Wild code school 
 caractéristiques demandées:
 -   Lister des films aléatoirement sur la page d'accueil 
