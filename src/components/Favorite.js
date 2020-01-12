@@ -39,7 +39,7 @@ class SearchPage extends React.Component {
     let indexMovie = this.props.fav
     indexMovie.map((indexMovie) => { //pour chaque element du tableau, je fais appel a l'api pour obtenir les infos du film
         return(
-          fetch(`https://api.themoviedb.org/3/movie/${indexMovie}?api_key=${process.env.movieKey}&language=en-US`)
+          fetch(`https://api.themoviedb.org/3/movie/${indexMovie}?api_key=${process.env.movie_key}&language=en-US`)
           .then(response => response.json())
           .then(data => {
               if(this.state.Allmovies.length > 0){
