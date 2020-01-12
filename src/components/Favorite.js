@@ -37,9 +37,10 @@ class SearchPage extends React.Component {
     this.setState({isLoading: true})
     window.scrollTo(0, 0)
     let indexMovie = this.props.fav
+    let key = toString(process.env.movie_key)
     indexMovie.map((indexMovie) => { //pour chaque element du tableau, je fais appel a l'api pour obtenir les infos du film
         return(
-          fetch(`https://api.themoviedb.org/3/movie/${indexMovie}?api_key=${process.env.movie_key}&language=en-US`)
+          fetch(`https://api.themoviedb.org/3/movie/${indexMovie}?api_key=${key}&language=en-US`)
           .then(response => response.json())
           .then(data => {
               if(this.state.Allmovies.length > 0){

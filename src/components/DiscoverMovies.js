@@ -69,20 +69,21 @@ prevNext(choice){
   movies(choice = 0, choiceIndex){
     this.setState({isLoading: true})
     window.scrollTo(0, 0)
+    let key = toString(process.env.movie_key)
     switch (choiceIndex) {
       case 2: // selon param choicIndex -> 2 = critere langue 
-        fetch(`https://api.themoviedb.org/3/discover/movie?api_key=${process.env.movie_key}&language=en-US&sort_by=popularity.desc&include_adult=false&include_video=false&page=${this.state.index}&with_original_language=${choice}`)
+        fetch(`https://api.themoviedb.org/3/discover/movie?api_key=${key}&language=en-US&sort_by=popularity.desc&include_adult=false&include_video=false&page=${this.state.index}&with_original_language=${choice}`)
         .then(response => response.json())
         .then(data => {(this.setState({Allmovies: data.results.slice(0,18), isLoading: false}))})
         break;
       case 1: // 1 => genre
-        fetch(`https://api.themoviedb.org/3/discover/movie?api_key=${process.env.movie_key}&language=en-US&include_adult=false&include_video=false&page=${this.state.index}&with_genres=${choice}`)
+        fetch(`https://api.themoviedb.org/3/discover/movie?api_key=${key}&language=en-US&include_adult=false&include_video=false&page=${this.state.index}&with_genres=${choice}`)
         .then(response => response.json())
         .then(data => {(this.setState({Allmovies: data.results.slice(0,18), isLoading: false}))})
         break;
     
       default:
-        fetch(`https://api.themoviedb.org/3/discover/movie?api_key=${process.env.movie_key}&language=en-US&include_adult=false&include_video=false&page=${this.state.index}`)
+        fetch(`https://api.themoviedb.org/3/discover/movie?api_key=${key}&language=en-US&include_adult=false&include_video=false&page=${this.state.index}`)
         .then(response => response.json())
         .then(data => {(this.setState({Allmovies: data.results.slice(0,18), isLoading: false}))});
         break;
