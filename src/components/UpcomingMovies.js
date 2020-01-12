@@ -48,7 +48,7 @@ else if (choice === 0 && this.state.index > 1){
     this.setState({isLoading: true})
     window.scrollTo(0, 0)
     
-    fetch(`https://api.themoviedb.org/3/movie/upcoming?api_key=09421687e12e25c90450bb42455e1ecf&language=en-US&page=${this.state.index}`)
+    fetch(`https://api.themoviedb.org/3/movie/upcoming?api_key=${process.env.movieKey}&language=en-US&page=${this.state.index}`)
     .then(response => response.json())
     .then(data => {(this.setState({Allmovies: data.results.slice(0,18), isLoading: false}))});
   }

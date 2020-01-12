@@ -71,13 +71,13 @@ class movie extends React.Component {
     this.setState({isLoading: true, click: false})
     let indexMovie = this.props.Film
     if(indexMovie > 0){
-      fetch(`https://api.themoviedb.org/3/movie/${indexMovie}?api_key=09421687e12e25c90450bb42455e1ecf&language=en-US`)
+      fetch(`https://api.themoviedb.org/3/movie/${indexMovie}?api_key=${process.env.movieKey}&language=en-US`)
       .then(response => response.json())
       .then(data => (this.setState({movie: data})))
       .catch(error => {
         throw(error);
     });
-      fetch(`https://api.themoviedb.org/3/movie/${indexMovie}/credits?api_key=09421687e12e25c90450bb42455e1ecf&language=en-US`)
+      fetch(`https://api.themoviedb.org/3/movie/${indexMovie}/credits?api_key=${process.env.movieKey}&language=en-US`)
       .then(response2 => response2.json())
       .then(data2 => (this.setState({casting: data2.cast, crew: data2.crew, isLoading: false})))
       .then(() => {this.color()})

@@ -57,7 +57,7 @@ class NavBar extends React.Component {
           </div>
           <div className="SearchBar">
             <SearchBar />
-          </div>
+          </div> 
           <span onClick={() => this.handleClick()} className="toggle">{this.toggle()}</span>
           <ul className={this.ulActive()}>
             <li className={location === '/' ? 'navLinkActive' : 'navLink'}><NavLink to="/">Home</NavLink></li>
