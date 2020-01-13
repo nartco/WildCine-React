@@ -47,9 +47,8 @@ else if (choice === 0 && this.state.index > 1){
   movies(){
     this.setState({isLoading: true})
     window.scrollTo(0, 0)
-    let key = process.env.movie_key.toString()
     
-    fetch(`https://api.themoviedb.org/3/movie/upcoming?api_key=${key}&language=en-US&page=${this.state.index}`)
+    fetch(`https://api.themoviedb.org/3/movie/upcoming?api_key=${process.env.movie_key}&language=en-US&page=${this.state.index}`)
     .then(response => response.json())
     .then(data => {(this.setState({Allmovies: data.results.slice(0,18), isLoading: false}))});
   }

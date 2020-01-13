@@ -58,8 +58,7 @@ class SearchPage extends React.Component {
     this.setState({isLoading: true})
     window.scrollTo(0, 0)
     let search = this.props.Search // on recup le state global avec la valeur de recherche
-    let key = process.env.movie_key.toString()
-    fetch(`https://api.themoviedb.org/3/search/movie?api_key=${key}&language=en-US&query=${search}&page=${this.state.index}&include_adult=false`)
+    fetch(`https://api.themoviedb.org/3/search/movie?api_key=${process.env.movie_key}&language=en-US&query=${search}&page=${this.state.index}&include_adult=false`)
     .then(response => response.json())
     .then(data => {(this.setState({Allmovies: data.results.slice(0,18), isLoading: false}))});
   }
