@@ -35,11 +35,11 @@ export default class Home extends React.Component {
   }
 
   upComing(){
-    console.log(process.env.movie_key)
-    fetch(`https://api.themoviedb.org/3/movie/upcoming?api_key=${process.env.movie_key}&language=en-US&page=1`)
+    console.log(process.env.MOVIE_KEY)
+    fetch(`https://api.themoviedb.org/3/movie/upcoming?api_key=${process.env.MOVIE_KEY}&language=en-US&page=1`)
     .then(response => response.json())
     .then(data => (this.setState({upcomingMovies: data.results})));
-    fetch(`https://api.themoviedb.org/3/movie/popular?api_key=${process.env.movie_key}&language=en-US&page=1`)
+    fetch(`https://api.themoviedb.org/3/movie/popular?api_key=${process.env.MOVIE_KEY}&language=en-US&page=1`)
     .then(response2 => response2.json())
     .then(data2 => (this.setState({popularMovies: data2.results})))
     .then(() => {

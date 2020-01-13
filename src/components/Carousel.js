@@ -41,7 +41,7 @@ import '../css/carousel.css'
     componentDidMount(){
       this._isMounted = true;
       this.setState({isLoading: true})
-      fetch(`https://api.themoviedb.org/3/movie/top_rated?api_key=${process.env.movie_key}&language=en-US&page=1`)
+      fetch(`https://api.themoviedb.org/3/movie/top_rated?api_key=${process.env.MOVIE_KEY}&language=en-US&page=1`)
       .then(response => response.json())
       .then(data => (this.setState({photos: data.results.slice(0,10), isLoading: false})));
   }
