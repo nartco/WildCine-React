@@ -47,7 +47,7 @@ else if (choice === 0 && this.state.index > 1){
   movies(){
     this.setState({isLoading: true})
     window.scrollTo(0, 0)
-    let key = toString(process.env.movie_key)
+    let key = process.env.movie_key.toString()
     
     fetch(`https://api.themoviedb.org/3/movie/upcoming?api_key=${key}&language=en-US&page=${this.state.index}`)
     .then(response => response.json())

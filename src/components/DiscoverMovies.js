@@ -69,7 +69,7 @@ prevNext(choice){
   movies(choice = 0, choiceIndex){
     this.setState({isLoading: true})
     window.scrollTo(0, 0)
-    let key = toString(process.env.movie_key)
+    let key = process.env.movie_key.toString()
     switch (choiceIndex) {
       case 2: // selon param choicIndex -> 2 = critere langue 
         fetch(`https://api.themoviedb.org/3/discover/movie?api_key=${key}&language=en-US&sort_by=popularity.desc&include_adult=false&include_video=false&page=${this.state.index}&with_original_language=${choice}`)

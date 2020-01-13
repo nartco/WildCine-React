@@ -70,7 +70,7 @@ class movie extends React.Component {
     window.scrollTo(0, 0)
     this.setState({isLoading: true, click: false})
     let indexMovie = this.props.Film
-    let key = toString(process.env.movie_key)
+    let key = process.env.movie_key.toString()
     if(indexMovie > 0){
       fetch(`https://api.themoviedb.org/3/movie/${indexMovie}?api_key=${key}&language=en-US`)
       .then(response => response.json())

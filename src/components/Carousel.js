@@ -39,7 +39,7 @@ import '../css/carousel.css'
 
 //Appel de l'API movieDB, placement du resultat dans le state Photos[]
     componentDidMount(){
-      let key = toString(process.env.movie_key)
+      let key = process.env.movie_key.toString()
       this._isMounted = true;
       this.setState({isLoading: true})
       fetch(`https://api.themoviedb.org/3/movie/top_rated?api_key=${key}&language=en-US&page=1`)

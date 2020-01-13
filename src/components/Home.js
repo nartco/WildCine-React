@@ -35,7 +35,7 @@ export default class Home extends React.Component {
   }
 
   upComing(){
-    let key = toString(process.env.movie_key) 
+    let key = process.env.movie_key.toString()
     fetch(`https://api.themoviedb.org/3/movie/upcoming?api_key=${key}&language=en-US&page=1`)
     .then(response => response.json())
     .then(data => (this.setState({upcomingMovies: data.results})));
