@@ -1,29 +1,7 @@
 ﻿# 				WildCine
 
-
-![
-](https://lh3.googleusercontent.com/zPhY5q70tG2ZaBx5aWA63nfQZkYV6QfqKBbf2c2577AC-mWShuyymn3svw9FvsIueAnpJVWGwCxJ "home")
-
-!(https://lh3.googleusercontent.com/jqPUCtMBoVGvsZfuad0nHhzEG6dVwDONxxKRv1GGMxy-1QttD2-rUSpRB2_drlyparNmLQbaW7C7 "search")
-
-![
-](https://lh3.googleusercontent.com/cOlP_R3CslTG7HggzmeEE9SDjPrnk88I01G9JBlHTBvgcL-wwQqf0bm-SIU4ijQHGvaSs1Q6nwsa "Date Hover")
-
-![
-](https://lh3.googleusercontent.com/I4tUT0x1_bPymBVPRZu6TF8abNG2G5Gt4b3uBSvu9tfi8vxL5zh-XcqO7MVk2pHp88H4MDzirFXf "details")
-
-![
-](https://lh3.googleusercontent.com/Hy3lF-QV8SXQOL6Fyuh0ffSsAcCpNf2UBk3S3hqOGQ2XszcNCwav_GhvvFdnahFP_2f2s0mvYF-p "detail + add favorite")
-
-
-![
-](https://lh3.googleusercontent.com/KHseOtEvjP0EJqyQ9RcXtpRlzo7cIUJ6a6ju3dWqWzJOrcWzIhN7_2ZBh9LkPyvdcsyd1gnZFrAm "navbar mobile")
-
-![
-](https://lh3.googleusercontent.com/FfJqpZ2BC3lqkrdfWkcIDRMZnPAnsIrBUPRBQkcvr9YBRmta3hDgRhB12ASNjgF9FbMh_wqgRuVy "favorites")
-
-
-
+# Projet en ligne sur heroku 
+https://thuillier-wildcine.herokuapp.com/
 
 
 
